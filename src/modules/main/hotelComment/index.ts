@@ -1,0 +1,1 @@
+// export { hotelCommentRouter } from './hotelComment.route'

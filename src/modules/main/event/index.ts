@@ -1,0 +1,1 @@
+export { router as eventRouter } from './event.route'

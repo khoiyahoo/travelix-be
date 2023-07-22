@@ -1,0 +1,1 @@
+export { router as tourPriceRouter } from './tour_price.route'

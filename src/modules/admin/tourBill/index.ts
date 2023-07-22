@@ -1,0 +1,1 @@
+export { tourBillRouter } from './tourBill.route'

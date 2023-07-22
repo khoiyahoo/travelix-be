@@ -1,0 +1,1 @@
+export { router as tourScheduleRouter } from './tour_schedule.route'

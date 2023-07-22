@@ -1,0 +1,1 @@
+export { router as policyRouter } from './policy.route'

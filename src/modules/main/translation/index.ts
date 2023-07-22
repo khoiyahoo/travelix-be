@@ -1,0 +1,1 @@
+export { router as translationRouter } from './translation.route'

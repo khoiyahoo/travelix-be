@@ -1,0 +1,1 @@
+export { router as commissionRouter } from './commission.route'

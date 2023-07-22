@@ -1,0 +1,1 @@
+export { router as voucherRouter } from './voucher.route'

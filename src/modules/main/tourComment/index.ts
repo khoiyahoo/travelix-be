@@ -1,0 +1,1 @@
+export { tourCommentRouter } from './tourComment.route'

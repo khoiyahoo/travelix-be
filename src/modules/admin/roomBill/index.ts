@@ -1,0 +1,1 @@
+export { router as roomBillRouter } from './roomBill.route'

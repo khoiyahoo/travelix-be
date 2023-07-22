@@ -1,0 +1,33 @@
+import { Router } from "express";
+// import { hotelRouter } from "./hotel";
+// import { hotelCommentRouter } from "./hotelComment";
+import { roomRouter } from "./room";
+import { roomBillRouter } from "./roomBill";
+import { roomOtherPriceRouter } from "./roomOtherPrice";
+import { tourRouter } from "./tour";
+import { tourBillRouter } from "./tourBill";
+import { tourCommentRouter } from "./tourComment";
+import { userRouter } from "./user";
+import { tourScheduleRouter } from "./tour_schedule";
+import { voucherRouter } from "./voucher";
+import { eventRouter } from "./event";
+import { translationRouter } from "./translation";
+import { commentRouter } from "./comment";
+import { stayRouter } from "./stay";
+
+export const mainRouter = Router();
+
+mainRouter.use("/user", userRouter);
+mainRouter.use("/tour", tourRouter);
+mainRouter.use("/tour-schedule", tourScheduleRouter);
+mainRouter.use("/stay", stayRouter);
+mainRouter.use("/room", roomRouter);
+mainRouter.use("/room-other-price", roomOtherPriceRouter);
+mainRouter.use("/tour-bill", tourBillRouter);
+mainRouter.use("/room-bill", roomBillRouter);
+mainRouter.use("/tour-comment", tourCommentRouter);
+// mainRouter.use("/hotel-comment", hotelCommentRouter);
+mainRouter.use("/voucher", voucherRouter);
+mainRouter.use("/event", eventRouter);
+mainRouter.use("/comment", commentRouter);
+mainRouter.use('/translation', translationRouter);

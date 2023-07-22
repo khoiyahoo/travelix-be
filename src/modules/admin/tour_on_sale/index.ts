@@ -1,0 +1,1 @@
+export { router as tourOnSaleRouter } from './tour_on_sale.route'

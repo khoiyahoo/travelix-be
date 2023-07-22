@@ -1,0 +1,1 @@
+export { roomOtherPriceRouter } from './roomOtherPrice.route'
